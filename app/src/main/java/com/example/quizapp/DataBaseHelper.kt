@@ -26,7 +26,7 @@ class DataBaseHelper(context: Context):SQLiteOpenHelper(context, DATABASE_NAME, 
                 "ANSWERB TEXT,ANSWERC TEXT,ANSWERD TEXT,CORRECTANSWER TEXT,DIFFICULTY INTEGER,)")
     }
 
-    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
+    override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         TODO("Not yet implemented")
         db.execSQL("DROP TABLE IF EXISTS"+ TABLE_NAME)
     }

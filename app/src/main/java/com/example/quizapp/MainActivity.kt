@@ -11,7 +11,7 @@ import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
-    internal var dbhelper = DataBaseHelper(this)
+   // internal var dbhelper = DataBaseHelper(this)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun  showDialog(title:String, Message:String){
+   /* fun  showDialog(title:String, Message:String){
         val builder = AlertDialog.Builder(this)
         builder.setCancelable(true)
         builder.setTitle(title)
@@ -63,5 +63,5 @@ class MainActivity : AppCompatActivity() {
     }
     fun update(){
 
-    }
+    }*/
 }
