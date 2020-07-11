@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".WissenLevelAcitivity"></activity>
         <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".StartTestActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

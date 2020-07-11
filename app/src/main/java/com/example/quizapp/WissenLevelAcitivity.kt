@@ -13,13 +13,13 @@ class WissenLevelAcitivity : AppCompatActivity() {
 
         val grundWissenBtn = findViewById<Button>(R.id.GrundwissenBtn)
         grundWissenBtn.setOnClickListener{
-            val intent = Intent(this, QuizActivity::class.java)
+            val intent = Intent(this, StartTestActivity::class.java)
             startActivity(intent)
         }
 
         val erweitertesWissenBtn = findViewById<Button>(R.id.ErweitertesWissenBtn)
         erweitertesWissenBtn.setOnClickListener{
-            val intent = Intent(this, QuizActivity::class.java)
+            val intent = Intent(this, StartTestActivity::class.java)
             startActivity(intent)
         }
     }
